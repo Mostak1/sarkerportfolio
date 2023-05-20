@@ -1,0 +1,28 @@
+#sideicon {
+    left: 5px;
+    top: 250px;
+    position: fixed;
+}
+
+#sideicon a {
+    width: 20px;
+    font-size: 2rem;
+
+
+}
+
+#sideicon a:hover {
+    color: green !important;
+
+}
+
+.card {
+    padding: 3px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(200, 248, 133)
+}
+
+.card:hover {
+    padding: 10px;
+    color: green;
+}
