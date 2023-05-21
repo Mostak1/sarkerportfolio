@@ -1,8 +1,18 @@
 import React from 'react'
 import './Home.css';
-import { FaGithub,FaFacebook,FaTwitter,FaLinkedin } from 'react-icons/fa';
-import myimg from '../assets/image/rp1-removebg-preview.png'
 import Typewriter from './Typewriter';
+
+// import images
+import myimg from '../assets/image/rp1-removebg-preview.png'
+import s1 from '../assets/image/proectpic/s1.jpg'
+import s2 from '../assets/image/proectpic/s2.jpg'
+import s3 from '../assets/image/proectpic/s3.jpg'
+import b3 from '../assets/image/proectpic/b3.jpg'
+import b2 from '../assets/image/proectpic/b2.jpg'
+import b1 from '../assets/image/proectpic/b1.jpg'
+import j1 from '../assets/image/proectpic/j1.jpg'
+import j2 from '../assets/image/proectpic/j2.jpg'
+import j3 from '../assets/image/proectpic/j3.jpg';
 
 
 
@@ -14,12 +24,7 @@ export const Home = () => {
   return (
     <div style={{backgroundColor:customColor}}>Home
        <div>
-        <div class="container-xxl" id="sideicon">
-            <a href="https://www.facebook.com/mdmostak.ahmedsarker"><FaFacebook/></a><br/>
-            <a href="https://twitter.com/MDSMOSTAK"><FaTwitter /></a><br/>
-            <a href="https://github.com/Mostak1"><FaGithub /></a><br/>
-            <a href="https://linkedin.com/in/md-mostak-ahmed-b936a1179"><FaLinkedin /></a>
-        </div>
+        
 
         <br id="home"/><br/><br/>
         <div class="container text-center mt-5">
@@ -123,13 +128,13 @@ export const Home = () => {
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/image/proectpic/s1.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={s1} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/s2.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={s2} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/s3.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={s3} class="d-block w-100" alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -161,13 +166,13 @@ export const Home = () => {
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/image/proectpic/b1.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={b1} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/b2.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={b2} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/b3.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={b3} class="d-block w-100" alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -202,13 +207,13 @@ export const Home = () => {
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/image/proectpic/j1.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={j1} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/j2.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={j2} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/image/proectpic/j3.jpg" class="d-block w-100" alt="..."/>
+                                    <img src={j3} class="d-block w-100" alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"

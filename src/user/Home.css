@@ -26,3 +26,65 @@
     padding: 10px;
     color: green;
 }
+.blogs,.about{
+    margin-top: 80px;
+    background-color: rgb(10, 25, 47);
+    padding-bottom: 10px;
+}
+/* contact page css */
+
+.contact{
+    background-image: url();
+    background-color:rgb(10, 25, 47) ;
+}
+.titlepage{
+    color: rgb(35, 103, 163);
+    border-bottom: 1px solid #48CA95 ;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.main_form{
+    border: 1px solid white;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+.contactus{
+    padding: 10px;
+    background-color: #4843A3;
+    color: aliceblue;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.textarea{
+    padding: 10px;
+    background-color: #4843A3;
+    color: aliceblue;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid white;
+}
+.send_btn{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    color: #ffffff;
+    border: 1px solid #48CA95;
+    border-radius: 10px;
+    background-color: #4843A3;
+    margin: 0 auto;
+    
+}
+.send_btn:hover{
+    background-color: #48CA95;
+
+}
