@@ -19,7 +19,7 @@ import j3 from '../assets/image/proectpic/j3.jpg';
 
 export const Home = () => {
   const color1='rgb(47,207,15)';
-  const customColor = 'rgb(10, 25, 47)';
+  const customColor = '#ffffff';
 
   return (
     <div style={{backgroundColor:customColor}}>Home
@@ -27,17 +27,17 @@ export const Home = () => {
         
 
         <br id="home"/><br/><br/>
-        <div class="container text-center mt-5">
-            <img class="rounded-circle " src={myimg} width="300px" height="300px"
+        <div className="container text-center mt-5">
+            <img className="rounded-circle " src={myimg} width="300px" height="300px"
                 alt="Image"/>
             <br/><br/>
-            <h3 style={{color:'white'}} class="wow animate__animated animate__flipInX" data-wow-duration="20s"
+            <h3 style={{color:'black'}} className="wow animate__animated animate__flipInX" data-wow-duration="20s"
                 data-wow-delay="1s">Hi, This Is <strong style={{color:color1}}>MD MOSTAK
                     AHMED</strong>
             </h3>
-            <h3 style={{color:'white'}} >I'm <Typewriter text=" Web Devloper" /> <spanc class="auto-type"></spanc>
+            <h3 style={{color:'black'}} >I'm <Typewriter text=" Web Devloper" /> <spanc className="auto-type"></spanc>
             </h3>
-            <a class="btn btn-outline-success text-white"
+            <a className="btn btn-outline-success text-black"
                 href="https://drive.google.com/file/d/1Zevhx7Oyqp_Qy974QsFHXrFjRghcyhWz/view?usp=sharing"
                 target="_blank" download rel="noopener noreferrer">Download Resume</a>
 
@@ -46,7 +46,7 @@ export const Home = () => {
         </div>
         <h1 id="about"></h1>
         <br/><br/><br/>
-        <div class="container-xl text-white" style={{textAlign:'justify'}} >
+        <div className="container-xl text-black" style={{textAlign:'justify'}} >
             <h2>About:</h2>
             <h4>Designer: </h4>
             <p>
@@ -119,76 +119,76 @@ export const Home = () => {
         </div>
         <br id="project"/><br/><br/> <br/>
 
-        <div class="container-xl">
-            <h2 class="text-white">Project:</h2>
+        <div className="container-xl">
+            <h2 className="text-black">Project:</h2>
 
-            <div class="row ">
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={s1} class="d-block w-100" alt="..."/>
+            <div className="row ">
+                <div className="col-md-4">
+                    <div className="card h-100">
+                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img src={s1} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={s2} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={s2} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={s3} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={s3} className="d-block w-100" alt="..."/>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
+                            <button className="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button"
+                            <button className="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Student Result Management System</h4>
-                            <p class="card-text">Student Result Management System Allows Students To Check View And See
+                        <div className="card-body">
+                            <h4 className="card-title">Student Result Management System</h4>
+                            <p className="card-text">Student Result Management System Allows Students To Check View And See
                                 Their Results Online Using Their Login Credentials. You Can Select Result Templates For
                                 Your
                                 School, Educational Institute, University. Online Software Also Allows Educational
                                 Institutes To Hold The Results Of Unpaid Students.</p>
                         </div>
-                        <div class="card-footer">
+                        <div className="card-footer">
 
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={b1} class="d-block w-100" alt="..."/>
+                <div className="col-md-4">
+                    <div className="card h-100">
+                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img src={b1} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={b2} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={b2} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={b3} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={b3} className="d-block w-100" alt="..."/>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
+                            <button className="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button"
+                            <button className="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Online Code Editor (Bootstrap)</h4>
-                            <p class="card-text">
+                        <div className="card-body">
+                            <h4 className="card-title">Online Code Editor (Bootstrap)</h4>
+                            <p className="card-text">
                                 Bootstrap is one of the most popular frontend framework for web development. It has pre
                                 define CSS style and JS bundle for faster web page development.
 
@@ -197,44 +197,44 @@ export const Home = () => {
                                 You can select or search top most used code snippets and see the result. You also can
                                 write your own custom code in text editor and run code on fly.</p>
                         </div>
-                        <div class="card-footer">
+                        <div className="card-footer">
 
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card h-100">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={j1} class="d-block w-100" alt="..."/>
+                <div className="col-md-4">
+                    <div className="card h-100">
+                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img src={j1} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={j2} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={j2} className="d-block w-100" alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={j3} class="d-block w-100" alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={j3} className="d-block w-100" alt="..."/>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
+                            <button className="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button"
+                            <button className="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Web Development With Javascript</h4>
-                            <p class="card-text">JavaScript is one of the most popular modern web technologies! As your
+                        <div className="card-body">
+                            <h4 className="card-title">Web Development With Javascript</h4>
+                            <p className="card-text">JavaScript is one of the most popular modern web technologies! As your
                                 JavaScript skills grow, your websites will enter a new dimension of power and
                                 creativity. However, getting comfortable with JavaScript is more challenging than
                                 getting comfortable with HTML and CSS</p>
                         </div>
-                        <div class="card-footer">
+                        <div className="card-footer">
 
                         </div>
                     </div>

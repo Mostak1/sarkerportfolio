@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet, Link } from 'react-router-dom';
 import logo from '../assets/image/mostaklogogreen.png'
 import './Home.css';
-import { FaGithub,FaFacebook,FaTwitter,FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Layout = () => {
   const customColor = 'rgb(10, 25, 47)';
@@ -50,27 +50,20 @@ const Layout = () => {
 
       </div>
       <div className='' style={{ marginTop: 60 }}>
-      <div class="container-xxl" id="sideicon">
-            <a href="https://www.facebook.com/mdmostak.ahmedsarker"><FaFacebook/></a><br/>
-            <a href="https://twitter.com/MDSMOSTAK"><FaTwitter /></a><br/>
-            <a href="https://github.com/Mostak1"><FaGithub /></a><br/>
-            <a href="https://linkedin.com/in/md-mostak-ahmed-b936a1179"><FaLinkedin /></a>
+        <div class="container-xxl" id="sideicon">
+          <a href="https://www.facebook.com/mdmostak.ahmedsarker"><FaFacebook /></a><br />
+          <a href="https://twitter.com/MDSMOSTAK"><FaTwitter /></a><br />
+          <a href="https://github.com/Mostak1"><FaGithub /></a><br />
+          <a href="https://linkedin.com/in/md-mostak-ahmed-b936a1179"><FaLinkedin /></a>
         </div>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/blogs">Blogs</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav> */}
 
+        {/* ...............................
+........Main Content here........
+................................... */}
         <Outlet />
+        {/* ...............................
+........Main Content here........
+................................... */}
       </div>
       <div style={{ backgroundColor: customColor }}>
 
