@@ -42,14 +42,12 @@
 .blogs,
 .about {
   margin-top: 120px;
-  /* background-color: rgb(10, 25, 47); */
   padding-bottom: 10px;
 }
 /* contact page css */
 
 .contact {
   background-image: url();
-  /* background-color: rgb(10, 25, 47); */
 }
 .titlepage {
   color: rgb(35, 103, 163);
@@ -83,7 +81,7 @@ input::placeholder {
   box-shadow: 0 0 10px gray;
   border-radius: 35px;
 }
-.contact button {
+.contact input[type="submit"] {
   width: 100%;
 }
 

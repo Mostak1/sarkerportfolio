@@ -12,7 +12,6 @@ import projects from "../assets/projects.json";
 import contact from "../assets/contact.json";
 import blog from "../assets/blog.json";
 import logom from "../assets/logom.json";
-import js from "../assets/js.json";
 import welcome from "../assets/welcome.json";
 
 const Layout = () => {
