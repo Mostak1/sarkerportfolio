@@ -83,6 +83,9 @@ input::placeholder {
   box-shadow: 0 0 10px gray;
   border-radius: 35px;
 }
+.contact button {
+  width: 100%;
+}
 
 .textarea {
   padding: 10px;
